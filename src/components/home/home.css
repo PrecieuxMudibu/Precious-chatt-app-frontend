@@ -1,0 +1,127 @@
+.home {
+    display: flex;
+    padding: 2.5%;
+    height: 89vh;
+    /* justify-content: space-between; */
+}
+
+.left-section {
+    width: 13%;
+    background-color: #5500FF;
+    margin-right: 4%;
+    border-radius: 2rem;
+}
+
+.left-section__profile-picture {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 8rem;
+    margin: 20%;
+}
+
+.left-section__navigation ul {
+    margin-top: 4rem;    
+}
+
+.left-section__link {
+    height: 7rem;
+    list-style: none;
+    color: white;
+    font-size: 4.5rem;
+    background-color: #4900E6;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-section__logout {
+    color: white;
+    font-size: 4.5rem;
+    margin-top: 25rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.middle-section {
+    width:30%;
+    /* background: #FFFFFF; */
+    margin-right: 4%;
+    border-radius: 2rem;
+}
+
+.middle-section__search-bar  {
+    display: flex;
+    border-radius: 2rem;
+    background: #FFFFFF;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.middle-section__magnifying-glass, .middle-section__more {
+    font-size: 2rem;
+}
+
+.middle-section__search-bar input {
+    border: none;
+    padding-bottom: .5rem;
+    width: 75%;
+}
+
+.middle-section__recent {
+    border-radius: 2rem;
+    background: #FFFFFF;
+    height: 73vh;
+    margin-top: 7%;
+    padding-top: 8%;
+    padding-left: 5%;
+    overflow: scroll;
+}
+
+.middle-section__second-title {
+    font-size: 2rem;
+}
+
+.middle-section__third-title {
+    font-size: 1.8rem;
+    /* border: 1px solid red; */
+    margin: 0;
+
+}
+
+.middle-section__paragraph {
+    font-size: 1.4rem;
+    color:grey;
+    /* border: 1px solid blue; */
+    margin: 0;
+
+}
+
+.middle-section__contact {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* border: 1px solid red; */
+    position: relative;
+    right: 15%;
+}
+
+.middle-section__profile-picture {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 5.5rem;
+    margin-right: 2%;
+
+}
+
+.right-section {
+    width: 58%;
+    background: #FFFFFF;
+    border-radius: 2rem;
+}
+
